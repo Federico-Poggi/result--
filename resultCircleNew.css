@@ -10,6 +10,7 @@ body{
     align-items: center;
     justify-content: center;
     background-image: url(bg.jpg) ;
+    back
     color: white;
     
 }
@@ -24,11 +25,11 @@ body{
 }
 .circular-progress{
     position: relative;
-    height: 250px;
-    width: 250px;
+    height: 270px;
+    width: 270px;
     border-radius: 50%;
-    background-color: blueviolet;
-    background: conic-gradient(#7d2ae8 3.6deg, #ededed 0deg);
+    background-color: rgb(16, 96, 224);
+    background: conic-gradient(#ff00d9 3.6deg, #ffffff 0deg);
     display:flex;
     align-items: center;
     justify-content: center;
@@ -36,10 +37,13 @@ body{
 .circular-progress::before{
     content: "";
     position: absolute;
-    height: 210px;
-    width: 210px;
+    height: 190px;
+    width: 190px;
     border-radius: 50%;
-    background-color:#0c113b ;
+    
+    background: url( bg.jpg);
+    background-size:cover;
+    
 }
 
 .progress-value{
