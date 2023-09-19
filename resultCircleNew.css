@@ -10,7 +10,6 @@ body{
     align-items: center;
     justify-content: center;
     background-image: url(bg.jpg) ;
-    back
     color: white;
     
 }
@@ -40,7 +39,6 @@ body{
     height: 190px;
     width: 190px;
     border-radius: 50%;
-    
     background: url( bg.jpg);
     background-size:cover;
     
